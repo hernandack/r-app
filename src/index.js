@@ -120,6 +120,7 @@ class Game extends React.Component {
         });
 
         let status;
+        let datacol;
         if (winner) {
             status = 'Winner: ' + winner;
         } else {
@@ -136,7 +137,7 @@ class Game extends React.Component {
                 </div>
                 <div class="game-info">
                     <div>
-                        status: {status}
+                        status : {status}
                     </div>
                     <ol>{moves}</ol>
                 </div>
